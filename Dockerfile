@@ -1,5 +1,5 @@
 # 베이스 이미지
-FROM maven:3.9.2-openjdk-17 AS build
+FROM maven:3.9.2-jdk-17 AS build
 
 WORKDIR /app
 
